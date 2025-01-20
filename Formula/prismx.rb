@@ -1,4 +1,4 @@
-class MyTool < Formula
+class Prismx < Formula
   desc "Description of MyTool"
   homepage "https://github.com/Kinetiqx/Prism"
 
