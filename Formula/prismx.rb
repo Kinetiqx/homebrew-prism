@@ -1,14 +1,10 @@
 class Prismx < Formula
   desc "Description of MyTool"
   homepage "https://github.com/Kinetiqx/Prism"
+  version "1.0.0"
 
-  if OS.mac?
-    url "https://github.com/Kinetiqx/Prism/releases/download/1-test/prismx-runner"
-    sha256 "acbdc95a9e43c894b94c819d278f056329202719432f929cc113548f72154a92"
-  elsif OS.linux?
-    url "https://github.com/Kinetiqx/Prism/releases/download/1-test/prismx-runner"
-    sha256 "acbdc95a9e43c894b94c819d278f056329202719432f929cc113548f72154a92"
-  end
+  url "https://github.com/Kinetiqx/Prism/releases/download/0.0.1/prismx-runner-0.0.1"
+  sha256 "acbdc95a9e43c894b94c819d278f056329202719432f929cc113548f72154a92"
 
   license "MIT"
 
@@ -17,7 +13,7 @@ class Prismx < Formula
     (prefix/"Kinetiqx").mkpath
 
     # Place the prismx tool inside the Kinetiqx directory
-    (prefix/"Kinetiqx").install "prismx"
+    (prefix/"Kinetiqx").install "prismx-runner"
   end
 
   test do
