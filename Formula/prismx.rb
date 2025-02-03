@@ -9,11 +9,7 @@ class Prismx < Formula
   license "MIT"
 
   def install
-    # Create the Kinetiqx directory inside the prefix directory
-    (prefix/"Kinetiqx").mkpath
-
-    # Place the prismx tool inside the Kinetiqx directory
-    (prefix/"Kinetiqx").install "prismx-runner"
+    bin.install "prismx-runner" => "prismx"
   end
 
   test do
