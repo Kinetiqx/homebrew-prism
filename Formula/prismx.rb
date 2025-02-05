@@ -4,7 +4,7 @@ class Prismx < Formula
   version "1.0.0"
 
   url "https://github.com/Kinetiqx/Prism/releases/download/0.0.1/prism-1.0.0.tar.gz"
-  sha256 "a628eeee658e50a67c926bff6418cca748a716b7c143acdecf61ad67641fb9fe"
+  sha256 "f6f935b1ebe40e5425c67c5d6292b7189c41c6c24be7880ce32638e2298983ce"
 
   license "MIT"
 
