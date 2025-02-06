@@ -3,8 +3,8 @@ class Prismx < Formula
   homepage "https://github.com/Kinetiqx/Prism"
   version "1.0.0"
 
-  url "https://github.com/Kinetiqx/Prism/releases/download/0.0.1/prism-1.0.0.tar.gz"
-  sha256 "5f14e8343add0bd7fc034589933aded804360a8b35a35c18ddc3b110cb59aa4b"
+  url "https://github.com/Kinetiqx/cli/releases/download/1.0.0/prism-1.0.0.tar.gz"
+  sha256 "9f55bb0f7381f426302d739f7adba25bbee4e3c997a95c7c2379c069264003eb"
 
   license "MIT"
 
